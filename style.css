@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+.drum-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  padding: 10px;
+}
+.beat {
+  border: 5px;
+  border-radius: 15px;
+  background-color: bisque;
+  /* box-shadow: 0 0 20px 5px #00ffcc; */
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 45px;
+  height: 150px;
+  /* width: 40%; */
+}
+.beat.kick {
+  background-color: lightcoral;
+}
+.beat.snare {
+  background-color: lightgreen;
+}
+.beat.clap {
+  background-color: lightyellow;
+}
+.beat.hi-hat {
+  background-color: lightpink;
+}
+.beat.active {
+  /* background-color: lightblue; */
+  filter: brightness(1.3);
+  filter: drop-shadow(2);
+  transform: scale(1.05);
+}
+.dashboard {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 5px;
+}
