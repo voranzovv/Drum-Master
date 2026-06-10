@@ -54,6 +54,25 @@ p {
     0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.box.active {
+  box-shadow:
+    inset 0 0 10px rgba(255, 255, 255, 0.05),
+    0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+.kick {
+  background: #ff6b35;
+}
+.snare {
+  background: #00e5ff;
+}
+.clap {
+  background: #ffd166;
+}
+.hi-hat {
+  background: #ff3d00;
+}
+
 /* ==========================
    DRUM PADS
 ========================== */
